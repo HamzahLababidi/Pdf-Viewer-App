@@ -1,0 +1,28 @@
+^C:\USERS\LABAB\ONEDRIVE\DESKTOP\PDFVIEWER\BUILD\CMAKEFILES\DDFA561291649F5293BAE4C39867FEF9\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\development\flutter PROJECT_DIR=C:\Users\labab\OneDrive\Desktop\PdfViewer\pdf_viewer FLUTTER_ROOT=C:\development\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\labab\OneDrive\Desktop\PdfViewer\pdf_viewer\windows\flutter\ephemeral PROJECT_DIR=C:\Users\labab\OneDrive\Desktop\PdfViewer\pdf_viewer FLUTTER_TARGET=C:\Users\labab\OneDrive\Desktop\PdfViewer\pdf_viewer\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNjM0NGI3NWRjZjg2MWQ4YmYxZjEzMjI3ODBiODgxMWY5ODJlMzFhLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\labab\OneDrive\Desktop\PdfViewer\pdf_viewer\.dart_tool\package_config.json C:/development/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LABAB\ONEDRIVE\DESKTOP\PDFVIEWER\BUILD\CMAKEFILES\C8E9F878B8CDF9B6DA92CD9F21982B97\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LABAB\ONEDRIVE\DESKTOP\PDFVIEWER\PDF_VIEWER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/labab/OneDrive/Desktop/PdfViewer/pdf_viewer/windows -BC:/Users/labab/OneDrive/Desktop/PdfViewer/build --check-stamp-file C:/Users/labab/OneDrive/Desktop/PdfViewer/build/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

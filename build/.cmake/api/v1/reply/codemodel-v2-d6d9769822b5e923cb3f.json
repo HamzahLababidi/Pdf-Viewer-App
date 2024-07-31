@@ -1,0 +1,730 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1fb705318d9386ace7c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"build" : "flutter",
+					"jsonFile" : "directory-flutter-Debug-79e0260f2327d8493c28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "flutter",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "runner",
+					"jsonFile" : "directory-runner-Debug-86f38b7dcb6f33eb04e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "runner",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "plugins/syncfusion_pdfviewer_windows",
+					"jsonFile" : "directory-plugins.syncfusion_pdfviewer_windows-Debug-1acd20dee88409233b3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "flutter/ephemeral/.plugin_symlinks/syncfusion_pdfviewer_windows/windows",
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				},
+				{
+					"build" : "plugins/url_launcher_windows",
+					"jsonFile" : "directory-plugins.url_launcher_windows-Debug-b718b41db8fa69359ace.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "flutter/ephemeral/.plugin_symlinks/url_launcher_windows/windows",
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "pdf_viewer",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "runner",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "syncfusion_pdfviewer_windows",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "url_launcher_windows",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-770f69371638d578d4bc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@056c4f61b0156d1d9b06",
+					"jsonFile" : "target-ALL_BUILD-Debug-638ec916066658cc5c68.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@a4a00b1fa02a121d93b8",
+					"jsonFile" : "target-ALL_BUILD-Debug-4d91088972c81898f779.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@82e8e937a0da8e6132e4",
+					"jsonFile" : "target-ALL_BUILD-Debug-7abf8e45cdc79170a240.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-68c2a789e4b8fa791fff.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flutter_assemble::@2bb09fbb03a373b2cb34",
+					"jsonFile" : "target-flutter_assemble-Debug-3b09883d127c2585b24c.json",
+					"name" : "flutter_assemble",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flutter_wrapper_app::@2bb09fbb03a373b2cb34",
+					"jsonFile" : "target-flutter_wrapper_app-Debug-9857469fa093137202ac.json",
+					"name" : "flutter_wrapper_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flutter_wrapper_plugin::@2bb09fbb03a373b2cb34",
+					"jsonFile" : "target-flutter_wrapper_plugin-Debug-9e26520517919dee264d.json",
+					"name" : "flutter_wrapper_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pdf_viewer::@056c4f61b0156d1d9b06",
+					"jsonFile" : "target-pdf_viewer-Debug-d35d915ae3c1ff824749.json",
+					"name" : "pdf_viewer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "syncfusion_pdfviewer_windows_plugin::@a4a00b1fa02a121d93b8",
+					"jsonFile" : "target-syncfusion_pdfviewer_windows_plugin-Debug-6138f6ad06f76592a227.json",
+					"name" : "syncfusion_pdfviewer_windows_plugin",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "url_launcher_windows_plugin::@82e8e937a0da8e6132e4",
+					"jsonFile" : "target-url_launcher_windows_plugin-Debug-c4872c521a97a655c19b.json",
+					"name" : "url_launcher_windows_plugin",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Profile-e1dea7b2eae2407bcdd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"build" : "flutter",
+					"jsonFile" : "directory-flutter-Profile-79e0260f2327d8493c28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "flutter",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "runner",
+					"jsonFile" : "directory-runner-Profile-86f38b7dcb6f33eb04e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "runner",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "plugins/syncfusion_pdfviewer_windows",
+					"jsonFile" : "directory-plugins.syncfusion_pdfviewer_windows-Profile-1acd20dee88409233b3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "flutter/ephemeral/.plugin_symlinks/syncfusion_pdfviewer_windows/windows",
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				},
+				{
+					"build" : "plugins/url_launcher_windows",
+					"jsonFile" : "directory-plugins.url_launcher_windows-Profile-b718b41db8fa69359ace.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "flutter/ephemeral/.plugin_symlinks/url_launcher_windows/windows",
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				}
+			],
+			"name" : "Profile",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "pdf_viewer",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "runner",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "syncfusion_pdfviewer_windows",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "url_launcher_windows",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Profile-770f69371638d578d4bc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@056c4f61b0156d1d9b06",
+					"jsonFile" : "target-ALL_BUILD-Profile-638ec916066658cc5c68.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@a4a00b1fa02a121d93b8",
+					"jsonFile" : "target-ALL_BUILD-Profile-4d91088972c81898f779.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@82e8e937a0da8e6132e4",
+					"jsonFile" : "target-ALL_BUILD-Profile-7abf8e45cdc79170a240.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Profile-68c2a789e4b8fa791fff.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flutter_assemble::@2bb09fbb03a373b2cb34",
+					"jsonFile" : "target-flutter_assemble-Profile-3b09883d127c2585b24c.json",
+					"name" : "flutter_assemble",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flutter_wrapper_app::@2bb09fbb03a373b2cb34",
+					"jsonFile" : "target-flutter_wrapper_app-Profile-01ef4506982be2326a5d.json",
+					"name" : "flutter_wrapper_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flutter_wrapper_plugin::@2bb09fbb03a373b2cb34",
+					"jsonFile" : "target-flutter_wrapper_plugin-Profile-dfed67bd199244461f2d.json",
+					"name" : "flutter_wrapper_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pdf_viewer::@056c4f61b0156d1d9b06",
+					"jsonFile" : "target-pdf_viewer-Profile-9c04cd4b11543d5da88e.json",
+					"name" : "pdf_viewer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "syncfusion_pdfviewer_windows_plugin::@a4a00b1fa02a121d93b8",
+					"jsonFile" : "target-syncfusion_pdfviewer_windows_plugin-Profile-668a5ec7131a133122c0.json",
+					"name" : "syncfusion_pdfviewer_windows_plugin",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "url_launcher_windows_plugin::@82e8e937a0da8e6132e4",
+					"jsonFile" : "target-url_launcher_windows_plugin-Profile-269413afa69e8774f003.json",
+					"name" : "url_launcher_windows_plugin",
+					"projectIndex" : 3
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-43791d8c8d5a70ac07cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"build" : "flutter",
+					"jsonFile" : "directory-flutter-Release-79e0260f2327d8493c28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "flutter",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "runner",
+					"jsonFile" : "directory-runner-Release-86f38b7dcb6f33eb04e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "runner",
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"build" : "plugins/syncfusion_pdfviewer_windows",
+					"jsonFile" : "directory-plugins.syncfusion_pdfviewer_windows-Release-1acd20dee88409233b3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "flutter/ephemeral/.plugin_symlinks/syncfusion_pdfviewer_windows/windows",
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				},
+				{
+					"build" : "plugins/url_launcher_windows",
+					"jsonFile" : "directory-plugins.url_launcher_windows-Release-b718b41db8fa69359ace.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "flutter/ephemeral/.plugin_symlinks/url_launcher_windows/windows",
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "pdf_viewer",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "runner",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "syncfusion_pdfviewer_windows",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "url_launcher_windows",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-770f69371638d578d4bc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@056c4f61b0156d1d9b06",
+					"jsonFile" : "target-ALL_BUILD-Release-638ec916066658cc5c68.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@a4a00b1fa02a121d93b8",
+					"jsonFile" : "target-ALL_BUILD-Release-4d91088972c81898f779.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@82e8e937a0da8e6132e4",
+					"jsonFile" : "target-ALL_BUILD-Release-7abf8e45cdc79170a240.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-68c2a789e4b8fa791fff.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flutter_assemble::@2bb09fbb03a373b2cb34",
+					"jsonFile" : "target-flutter_assemble-Release-3b09883d127c2585b24c.json",
+					"name" : "flutter_assemble",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flutter_wrapper_app::@2bb09fbb03a373b2cb34",
+					"jsonFile" : "target-flutter_wrapper_app-Release-738bc8fd8ced1b4d37e6.json",
+					"name" : "flutter_wrapper_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flutter_wrapper_plugin::@2bb09fbb03a373b2cb34",
+					"jsonFile" : "target-flutter_wrapper_plugin-Release-905bfd86c3400e91675d.json",
+					"name" : "flutter_wrapper_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pdf_viewer::@056c4f61b0156d1d9b06",
+					"jsonFile" : "target-pdf_viewer-Release-607a6c3605fed566ba93.json",
+					"name" : "pdf_viewer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "syncfusion_pdfviewer_windows_plugin::@a4a00b1fa02a121d93b8",
+					"jsonFile" : "target-syncfusion_pdfviewer_windows_plugin-Release-aed651ff7f92445581ea.json",
+					"name" : "syncfusion_pdfviewer_windows_plugin",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "url_launcher_windows_plugin::@82e8e937a0da8e6132e4",
+					"jsonFile" : "target-url_launcher_windows_plugin-Release-d68227ba9ecd4c138be9.json",
+					"name" : "url_launcher_windows_plugin",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/labab/OneDrive/Desktop/PdfViewer/build",
+		"source" : "C:/Users/labab/OneDrive/Desktop/PdfViewer/pdf_viewer/windows"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

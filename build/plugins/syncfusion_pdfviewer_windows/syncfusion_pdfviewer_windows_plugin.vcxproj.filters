@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\labab\OneDrive\Desktop\PdfViewer\pdf_viewer\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\pdfviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\labab\OneDrive\Desktop\PdfViewer\pdf_viewer\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\syncfusion_pdfviewer_windows_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\labab\OneDrive\Desktop\PdfViewer\pdf_viewer\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\pdfviewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\labab\OneDrive\Desktop\PdfViewer\pdf_viewer\windows\flutter\ephemeral\.plugin_symlinks\syncfusion_pdfviewer_windows\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{01109626-2BB6-3248-BBBE-FFF8996CE2A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E705EEB8-04BD-3463-9F5E-C45CB3AC0745}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
